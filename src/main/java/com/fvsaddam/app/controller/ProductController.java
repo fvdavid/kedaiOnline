@@ -31,7 +31,7 @@ import org.springframework.web.util.UriComponentsBuilder;
  * @email <"saddamtbg@gmail.com">
  */
 @RestController
-@RequestMapping("/api/product")
+@RequestMapping("/api/product/item")
 @Transactional(readOnly = true)
 public class ProductController {
 
